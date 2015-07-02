@@ -9,7 +9,12 @@
     "gulp-minify-css": "^0.3.0",
     "gulp-rename": "^1.2.0"
   },
-  "cordovaPlugins": [],
+  "cordovaPlugins": [
+    {
+      "locator": "https://github.com/albertarvesu/ios-ocr-cordova-plugin.git",
+      "id": "com.jcesarmobile.OCRPlugin"
+    }
+  ],
   "cordovaPlatforms": [
     "android"
   ]

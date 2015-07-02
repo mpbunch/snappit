@@ -25,15 +25,22 @@ angular.module('starter', ['ionic', 'starter.services'])
   $scope.getPhoto = function() {
     Camera.getPicture().then(function(imageURI) {
       console.log(imageURI);
+      callNativePlugin({url_imagen: imageURI});
       $scope.lastPhoto = imageURI;
     }, function(err) {
       console.err(err);
     }, {
-      quality: 75,
-      targetWidth: 320,
-      targetHeight: 320,
+      quality: 100,
       saveToPhotoAlbum: false
     });
   };
-
+  function callNativePlugin(returnSuccess){ 
+    OCRPlugin.callNativeFunction( nativePluginResultHandler, nativePluginErrorHandler, returnSuccess ); 
+  }
+  function nativePluginResultHandler (result) { 
+    alert("ok: "+result);
+  } 
+  function nativePluginErrorHandler (error) { 
+    alert("error: "+error);
+  }
 })

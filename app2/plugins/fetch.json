@@ -16,5 +16,14 @@
             "type": "local",
             "path": "/var/folders/yc/wb4ct6qn5vl2r6hv8k3mck_w0000gq/T/org.apache.cordova.device/package"
         }
+    },
+    "com.jcesarmobile.OCRPlugin": {
+        "source": {
+            "type": "git",
+            "url": "https://github.com/albertarvesu/ios-ocr-cordova-plugin.git",
+            "subdir": "."
+        },
+        "is_top_level": true,
+        "variables": {}
     }
 }

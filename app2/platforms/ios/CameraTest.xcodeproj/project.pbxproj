@@ -43,6 +43,8 @@
 		D9FE746B28F7445B855381CF /* CDVCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 04BC149115E642CB82BDB963 /* CDVCamera.m */; };
 		D3367E4DE31441DABAE8BDF5 /* CDVJpegHeaderWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = ECCB923B0CD0409BA17C8BEF /* CDVJpegHeaderWriter.m */; };
 		73B71EE4A0214FE5A725D7A0 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 962041EE60224088963F47AE /* ImageIO.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		967BC0D5FEE049CDA6B4D09F /* claseAuxiliar.mm in Resources */ = {isa = PBXBuildFile; fileRef = 6F98D67383CD4F539605F71B /* claseAuxiliar.mm */; };
+		D10C4439338541B38B871493 /* OCRPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F818AADE05842F3BB00D66F /* OCRPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -117,6 +119,10 @@
 		8E67D23D2A2A4435B92FD93C /* CDVJpegHeaderWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVJpegHeaderWriter.h"; path = "org.apache.cordova.camera/CDVJpegHeaderWriter.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		3C9BE21751C34771B9478D64 /* CDVExif.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CDVExif.h"; path = "org.apache.cordova.camera/CDVExif.h"; sourceTree = "<group>"; fileEncoding = 4; };
 		962041EE60224088963F47AE /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "ImageIO.framework"; path = "System/Library/Frameworks/ImageIO.framework"; sourceTree = SDKROOT; fileEncoding = 4; };
+		6F98D67383CD4F539605F71B /* claseAuxiliar.mm */ = {isa = PBXFileReference; lastKnownFileType = unknown; name = "claseAuxiliar.mm"; path = "com.jcesarmobile.OCRPlugin/claseAuxiliar.mm"; sourceTree = "<group>"; fileEncoding = 4; };
+		5F818AADE05842F3BB00D66F /* OCRPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "OCRPlugin.m"; path = "com.jcesarmobile.OCRPlugin/OCRPlugin.m"; sourceTree = "<group>"; fileEncoding = 4; };
+		49650FFCF3DE494BBC6BC661 /* claseAuxiliar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "claseAuxiliar.h"; path = "com.jcesarmobile.OCRPlugin/claseAuxiliar.h"; sourceTree = "<group>"; fileEncoding = 4; };
+		D6C5DA432F3C4AC9804ECDFC /* OCRPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "OCRPlugin.h"; path = "com.jcesarmobile.OCRPlugin/OCRPlugin.h"; sourceTree = "<group>"; fileEncoding = 4; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,6 +254,10 @@
 				5369289E290F41959EFC5B0E /* CDVCamera.h */,
 				8E67D23D2A2A4435B92FD93C /* CDVJpegHeaderWriter.h */,
 				3C9BE21751C34771B9478D64 /* CDVExif.h */,
+				6F98D67383CD4F539605F71B /* claseAuxiliar.mm */,
+				5F818AADE05842F3BB00D66F /* OCRPlugin.m */,
+				49650FFCF3DE494BBC6BC661 /* claseAuxiliar.h */,
+				D6C5DA432F3C4AC9804ECDFC /* OCRPlugin.h */,
 			);
 			name = Plugins;
 			path = "CameraTest/Plugins";
@@ -446,6 +456,8 @@
 				4042CBEB6ACA421F96F284E0 /* CDVDevice.m in Sources */,
 				D9FE746B28F7445B855381CF /* CDVCamera.m in Sources */,
 				D3367E4DE31441DABAE8BDF5 /* CDVJpegHeaderWriter.m in Sources */,
+				967BC0D5FEE049CDA6B4D09F /* claseAuxiliar.mm in Resources */,
+				D10C4439338541B38B871493 /* OCRPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

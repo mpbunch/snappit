@@ -48,6 +48,13 @@ module.exports = [
         "clobbers": [
             "CameraPopoverHandle"
         ]
+    },
+    {
+        "file": "plugins/com.jcesarmobile.OCRPlugin/www/OCRPlugin.js",
+        "id": "com.jcesarmobile.OCRPlugin.OCRPlugin",
+        "clobbers": [
+            "window.OCRPlugin"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -55,7 +62,8 @@ module.exports.metadata =
 {
     "org.apache.cordova.console": "0.2.8",
     "org.apache.cordova.device": "0.2.9",
-    "org.apache.cordova.camera": "0.2.9"
+    "org.apache.cordova.camera": "0.2.9",
+    "com.jcesarmobile.OCRPlugin": "0.1.0"
 }
 // BOTTOM OF METADATA
 });

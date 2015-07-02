@@ -53,6 +53,10 @@
                         {
                             "xml": "<feature name=\"Camera\"><param name=\"ios-package\" value=\"CDVCamera\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"com.jcesarmobile.OCRPlugin\"><param name=\"ios-package\" value=\"OCRPlugin\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -67,6 +71,9 @@
             "PACKAGE_NAME": "com.ionicframework.starter"
         },
         "org.apache.cordova.camera": {
+            "PACKAGE_NAME": "com.ionicframework.starter"
+        },
+        "com.jcesarmobile.OCRPlugin": {
             "PACKAGE_NAME": "com.ionicframework.starter"
         }
     },
